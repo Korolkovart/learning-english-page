@@ -1,0 +1,44 @@
+.wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 680px;
+}
+.info::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../../img/information.png);
+  width: 26px;
+  height: 33px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info__text {
+  margin: 0;
+  max-width: 550px;
+  margin-left: 40px;
+}
+
+.list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.link:nth-child(odd){
+  background-color: rgb(241, 247, 238);
+}
+
+.button{
+    display: block;
+    border-radius: 20px;
+}

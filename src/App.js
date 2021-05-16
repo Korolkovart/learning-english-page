@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Audio from "./Components/Audio/Audio";
+import Form1 from "./Components/Part1/Form1/Form1";
+import Form2 from "./Components/Part2/Form2/Form2";
 
 function App() {
+  const [isForm, setIsForm] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='wrapper'>
+      <Header />
+      <Audio className='audio'/>
+      <div className="partBtn">
+        <button  className='btn' onClick={() => setIsForm(true)}>Part One</button>
+        <button className='btn' onClick={() => setIsForm(false)}>Part Two</button>
+      </div>
+      {isForm ? <Form1 /> : <Form2 />}
     </div>
   );
 }

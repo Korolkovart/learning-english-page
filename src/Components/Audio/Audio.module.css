@@ -1,0 +1,96 @@
+.wrapper {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  min-height: 50px;
+  background-color: #fff;
+  z-index: 1;
+}
+.text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.playerWrapper {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  margin-right: 10px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.playBtn {
+  padding-left: 3px;
+}
+
+.progress {
+  user-select: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.progress__time {
+  color: black;
+  font-size: 16px;
+}
+
+.progress__line {
+  flex: 1;
+  border-radius: 5px;
+  margin: 0 20px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.progress__knob {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+
+@media (min-width: 410px) {
+    .playerWrapper {
+        width: 380px;
+    }
+}
+
+@media (min-width: 480px) {
+    .playerWrapper {
+        width: 420px;
+    }
+}
+@media (min-width: 550px) {
+    .playerWrapper {
+        width: 480px;
+    }
+}
+@media (min-width: 630px) {
+    .playerWrapper {
+        width: 500px;
+    }
+}
+@media (min-width: 678px) {
+    .playerWrapper {
+        width: 600px;
+    }
+}
