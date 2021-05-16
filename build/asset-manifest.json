@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cd3a00e.chunk.css",
+    "main.js": "/static/js/main.0e79ea35.chunk.js",
+    "main.js.map": "/static/js/main.0e79ea35.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6773f278.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6773f278.js.map",
+    "static/js/2.9b5a2598.chunk.js": "/static/js/2.9b5a2598.chunk.js",
+    "static/js/2.9b5a2598.chunk.js.map": "/static/js/2.9b5a2598.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9cd3a00e.chunk.css.map": "/static/css/main.9cd3a00e.chunk.css.map",
+    "static/js/2.9b5a2598.chunk.js.LICENSE.txt": "/static/js/2.9b5a2598.chunk.js.LICENSE.txt",
+    "static/media/vegan.f33e5a7d.jpeg": "/static/media/vegan.f33e5a7d.jpeg",
+    "static/media/vegan_story.efe025a0.mp3": "/static/media/vegan_story.efe025a0.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6773f278.js",
+    "static/js/2.9b5a2598.chunk.js",
+    "static/css/main.9cd3a00e.chunk.css",
+    "static/js/main.0e79ea35.chunk.js"
+  ]
+}
